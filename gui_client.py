@@ -13,8 +13,8 @@ class SecureClientGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("🔐 Secure Client - Encrypted Communication")
-        self.root.geometry("900x700")
-        self.root.resizable(False, False)
+        self.root.geometry("700x550")
+        self.root.resizable(True, True)
         
         # Colors
         self.bg_color = "#1e1e2e"
