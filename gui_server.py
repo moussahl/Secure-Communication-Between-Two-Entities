@@ -12,7 +12,7 @@ class SecureServerGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("🔐 Secure Server - Encrypted Communication")
-        self.root.geometry("700x550")
+        self.root.geometry("700x700")
         self.root.resizable(True, True)
         
         # Colors
